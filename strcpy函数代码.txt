@@ -8,6 +8,6 @@ char* StrCpy(char* src){
     for(int i = 0; i < len; i++){
         ret[i] = src[i];
     }
-    ret[len] = '\0';
+    ret[len] = '\0';//远程edit
     return ret;
 }
