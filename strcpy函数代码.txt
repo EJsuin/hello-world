@@ -9,5 +9,5 @@ char* StrCpy(char* src){
         ret[i] = src[i];
     }
     ret[len] = '\0';//远程edit
-    return ret;
+    return ret;//本地edit
 }
